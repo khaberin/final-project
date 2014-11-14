@@ -25,7 +25,7 @@ object {
 
 /* type hierarchy- change for your project */
 h1 {
-  font-size: 3em; /* 48px */
+  font-size: 3em; /* 48px */    
 }
 
 h2 {
@@ -46,15 +46,83 @@ h4 {
 ========================================== */
 
 
+header{
+    background-color:black;
+    padding:40px;
+    padding-bottom: 1px;
+}
 
+.headerfont{
+    color:#EB142D;
+    font-family: 'Nosifer', cursive;
+    letter-spacing: 4px;
+    text-shadow: 4px 10px 12px white;
+    font-size: 3em;
+    
+}
 
+.btn{
+    letter-spacing: 3px;
+    font-size: 3em;
+}
 
+.navbar .btn-group ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
 
+.navbar{
+     font-family: 'Bangers', cursive;
+}
+.navbar li{
+    display:inline-block;
+    padding:3px;
+    padding-bottom: 0px;   
+    font-family: 'Bangers', cursive;
+}
 
+.btn-group{
+    display: inline-block;
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 4px;
+}
 
+.navbar  a{
+    color:white;
+    
+}
+.navbar a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 
+.intro{
+    width:250px;
+    height:150px;
+    float:left;
+    padding-right: 10px;
+    padding-left: 5px;
+}
 
+.names{
+    padding: 100px;
+    font-family: 'Trade Winds', cursive;
+    padding-right: 5px;
+}
 
+.info{
+    float:right;
+    padding:50px;
+    
+}
+
+body{
+    background-image: url(../img/brickwall/brickwall.png);
+    margin:100px;    
+}
 
 
 
