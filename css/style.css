@@ -25,11 +25,11 @@ object {
 
 /* type hierarchy- change for your project */
 h1 {
-  font-size: 3em; /* 48px */    
+  font-size: 5em; /* 48px */    
 }
 
 h2 {
-  font-size: 2.25em /* 36px */
+  font-size: 4em /* 36px */
 }
 
 h3 {
@@ -108,24 +108,43 @@ header{
 }
 
 .names{
-    padding: 100px;
     font-family: 'Trade Winds', cursive;
     padding-right: 5px;
+    padding-left: 180px;
+    padding-top: 50px;
 }
 
 .info{
     float:right;
-    padding:50px;
-    
+    font-family: 'Shadows Into Light', cursive;
+    padding-left: none;
+  
 }
+    
+
 
 body{
     background-image: url(../img/brickwall/brickwall.png);
-    margin:100px;    
+      
+    
 }
 
+.profile{
+    padding-left: 100px;
+    width:440px;
+    height:450px;   
+}
 
+.profile2{
+    padding-left: 200px;
+    width:620px;
+    height:350px;
+}
 
+li{
+    list-style: none;
+    display: inline-block;
+}
 
 
 
