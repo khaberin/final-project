@@ -50,6 +50,7 @@ header{
     background-color:black;
     padding:40px;
     padding-bottom: 1px;
+    
 }
 
 .headerfont{
@@ -75,6 +76,7 @@ header{
 
 .navbar{
      font-family: 'Bangers', cursive;
+    
 }
 .navbar li{
     display:inline-block;
@@ -177,7 +179,12 @@ p{
 
 footer li{
     width:100%;
-    display: inline-block;
+    display: inline;
+    font-family: 'Bangers', cursive;
+    font-size:1.5em;
+    letter-spacing: 4px;
+    color:#EB142D;
+    
     
 }
 .joss{
