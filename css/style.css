@@ -121,7 +121,6 @@ header{
 
 
 .info{
-    float:right;
     font-family: 'Imprima', sans-serif;
     letter-spacing: 1px;
     font-size:1.4em;
@@ -135,6 +134,7 @@ body{
       
     
 }
+
 
 .profile{
     padding-left: 110px;
@@ -165,7 +165,7 @@ body{
 
 li{
     list-style: none;
-    display: inline-block;
+    
 }
 
 .index{
@@ -265,6 +265,7 @@ font-family: 'Rock Salt', cursive;
 .lastrowBUFF{
     padding-left: 432px;
 }
+
 
 
 /* =======================================
